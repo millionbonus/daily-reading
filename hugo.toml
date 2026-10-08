@@ -1,13 +1,17 @@
 baseURL = 'https://story.moomoose.com/'
 locale = 'en-us'
 title = 'Daily Reading'
-theme = 'austere'
+theme = 'kana-hugo-theme'
 timeZone = 'Asia/Taipei'
 
 [params]
   description = 'Daily English reading practice: short news stories with vocabulary and questions.'
   author = 'm1llion'
   siteIcon = 'quill'
+  mainSections = ['posts']
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
 
 [menus]
   [[menus.main]]
