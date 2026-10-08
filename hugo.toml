@@ -1,11 +1,11 @@
 baseURL = 'https://story.digideas.com/'
 locale = 'en-us'
-title = 'Daily Reading'
+title = 'Daily Stories'
 theme = 'kana-hugo-theme'
 timeZone = 'Asia/Taipei'
 
 [params]
-  description = 'Daily English reading practice: short news stories with vocabulary and questions.'
+  description = 'Short news stories with vocabulary and questions.'
   author = 'm1llion'
   siteIcon = 'quill'
   mainSections = ['posts']

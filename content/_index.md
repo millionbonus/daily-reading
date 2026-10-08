@@ -1,7 +1,7 @@
 ---
-title: Daily Reading
+title: Daily Stories
 ---
 
-Short English news stories, one set a day, each with vocabulary and comprehension questions.
+Short news and stories, one set a day, each with vocabulary and comprehension questions.
 
 [Browse all posts](posts/)
