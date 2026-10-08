@@ -1,4 +1,4 @@
-baseURL = 'https://story.moomoose.com/'
+baseURL = 'https://story.digideas.com/'
 locale = 'en-us'
 title = 'Daily Reading'
 theme = 'kana-hugo-theme'
