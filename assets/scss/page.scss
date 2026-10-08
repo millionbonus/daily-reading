@@ -1,0 +1,49 @@
+// Shadows themes/kana-hugo-theme/assets/scss/page.scss; re-copy the theme's version when updating the theme.
+@import "components/variables.scss";
+@import "components/content.scss";
+@import "components/page-index.scss";
+
+// Note styles: only needed on the notes list page
+article.note {
+  display: flow-root;
+  margin: 0 -1rem;
+  padding: 0.4rem 1rem;
+  color: $text;
+
+  .note-title {
+    color: $text-heading;
+    font-size: 1.4rem;
+    display: inline-block;
+    margin: 0;
+  }
+
+  .note-day {
+    color: $text-heading;
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 400;
+    float: right;
+  }
+}
+
+@font-face {
+  font-family: "Literata";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200 900;
+  src: url("/fonts/literata-latin-wght-normal.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Literata";
+  font-style: italic;
+  font-display: swap;
+  font-weight: 200 900;
+  src: url("/fonts/literata-latin-wght-italic.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.e-content {
+  font-family: "Literata", Georgia, serif;
+}
