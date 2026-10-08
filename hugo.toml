@@ -1,4 +1,4 @@
-baseURL = 'https://millionbonus.github.io/daily-reading/'
+baseURL = 'https://story.moomoose.com/'
 locale = 'en-us'
 title = 'Daily Reading'
 theme = 'austere'
