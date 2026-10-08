@@ -1,0 +1,16 @@
+baseURL = 'https://millionbonus.github.io/daily-reading/'
+locale = 'en-us'
+title = 'Daily Reading'
+theme = 'austere'
+timeZone = 'Asia/Taipei'
+
+[params]
+  description = 'Daily English reading practice: short news stories with vocabulary and questions.'
+  author = 'm1llion'
+  siteIcon = 'quill'
+
+[menus]
+  [[menus.main]]
+    name = 'Posts'
+    pageRef = '/posts'
+    weight = 10
