@@ -5,7 +5,7 @@ theme = 'kana-hugo-theme'
 timeZone = 'Asia/Taipei'
 
 [params]
-  description = 'Short news stories with vocabulary and questions.'
+  description = 'Short news and stories with vocabulary and questions.'
   author = 'm1llion'
   siteIcon = 'quill'
   mainSections = ['posts']
@@ -18,3 +18,6 @@ timeZone = 'Asia/Taipei'
     name = 'Posts'
     pageRef = '/posts'
     weight = 10
+
+[markup.goldmark.renderer]
+  unsafe = true
