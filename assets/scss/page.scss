@@ -26,6 +26,15 @@ article.note {
   }
 }
 
+// The theme gives blockquotes the dark code background, which hides dark text on the light palette.
+main article .content blockquote {
+  background: none;
+  border: 0;
+  border-left: 3px solid #ff5a36;
+  border-radius: 0;
+  color: $text;
+}
+
 main article .content {
   p,
   ul,
