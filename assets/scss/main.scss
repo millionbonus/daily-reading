@@ -27,7 +27,7 @@ $font-family: "Literata", Georgia, serif;
 @import "components/max-710.scss";
 
 article[itemtype="http://schema.org/BlogPosting"] .e-content {
-  font-weight: 300;
+  font-weight: 400;
 
   // UA default is `bolder`, which resolves to only 400 against a 300 parent.
   strong,
