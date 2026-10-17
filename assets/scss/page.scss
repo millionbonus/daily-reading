@@ -1,0 +1,37 @@
+// Shadows themes/kana-hugo-theme/assets/scss/page.scss; re-copy the theme's contents when updating the theme.
+@import "components/variables.scss";
+@import "components/content.scss";
+@import "components/page-index.scss";
+
+// Note styles: only needed on the notes list page
+article.note {
+  display: flow-root;
+  margin: 0 -1rem;
+  padding: 0.4rem 1rem;
+  color: $text;
+
+  .note-title {
+    color: $text-heading;
+    font-size: 1.4rem;
+    display: inline-block;
+    margin: 0;
+  }
+
+  .note-day {
+    color: $text-heading;
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 400;
+    float: right;
+  }
+}
+
+main article .content {
+  p,
+  ul,
+  ol,
+  .highlight,
+  blockquote {
+    font-size: 1.2rem;
+  }
+}

@@ -27,11 +27,15 @@ $font-family: "Literata", Georgia, serif;
 @import "components/max-710.scss";
 
 article[itemtype="http://schema.org/BlogPosting"] .e-content {
-  font-weight: 200;
+  font-weight: 300;
 
   // UA default is `bolder`, which resolves to only 400 against a 200 parent.
   strong,
   b {
     font-weight: 500;
   }
+}
+
+.home .hero .container {
+  font-size: 1.2rem;
 }
